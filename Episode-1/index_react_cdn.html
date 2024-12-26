@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React CDN</title>
+    ,<link rel="stylesheet" href="./index.css">
   </head>
   <body>
         <div class="container">
@@ -23,16 +24,6 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
 
-    <script>
-       const heading = React.createElement("h1",{},"Hello World from React!")
-
-       const root = ReactDOM.createRoot(document.getElementById("root"))
-       root.render(heading);
-
-       
-       const childHeading = React.createElement("h2",{},"Hello World from Child Div!");
-       const child = ReactDOM.createRoot(document.getElementById("child"));
-       child.render(childHeading);
-    </script>
+   <script src="./App.js"/>
   </body>
 </html>
